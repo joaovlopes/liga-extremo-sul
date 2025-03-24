@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 
 import apoiadores from "@/assets/apoiadores.jpg"
