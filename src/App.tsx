@@ -6,7 +6,7 @@ import "@/styles/global.scss"
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/liga-extremo-sul">
         <AppRoutes />
     </BrowserRouter>
   )
