@@ -6,7 +6,7 @@ import path from 'path';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
-  base: "liga-extremo-sul",
+  base: "/iga-extremo-sul",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
