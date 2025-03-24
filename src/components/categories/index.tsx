@@ -3,7 +3,15 @@ import { Avatar, Button, Card, HStack, Stack, Tag, Text } from "@chakra-ui/react
 import logoCampeonato from "@/assets/logoTeste.png"
 import { NavLink } from 'react-router-dom';
 
-export function Categories({ data }: { data: any }) {
+interface Campeonato {
+    nameCampeonato: string;
+    genero: string;
+    modalidade: string;
+    categoria: string;
+    data: string;
+  }
+
+export function Categories({ data }: { data: Campeonato }) {
     const tagGeneroColor = data.genero.toLowerCase() === 'feminino' ? 'pink' : 'blue'
     const tagModalidadeColor = data.modalidade.toLowerCase() === 'futsal' ? 'orange' : 'green'
 

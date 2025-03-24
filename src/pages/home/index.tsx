@@ -5,7 +5,7 @@ import { AsideHomePage } from '@/components/aside/index'
 
 
 export function Home() {
-    const dataCampeonato:any = [
+    const dataCampeonato = [
         {
             nameCampeonato: "Metropolitano Plus",
             genero: "Masculino",

@@ -3,7 +3,6 @@ import './styles.scss';
 import { HStack, Button, Stack, Tag, Avatar } from "@chakra-ui/react"
 import { Table } from "@chakra-ui/react"
 import logoInter from "@/assets/logo-inter.png"
-import logoFlamengo from "@/assets/logo-flamengo.png"
 
 export function Championship() {
     const items = [
