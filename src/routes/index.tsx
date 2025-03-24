@@ -6,6 +6,7 @@ import { Header } from '@/pages/header/index';
 import { Classificao } from '@/pages/classificacao/index';
 import { Ranking } from '@/pages/ranking/index';
 import { Midias } from '@/pages/midias/index';
+import { Championship } from '@/pages/championship/index';
 
 export function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ export function AppRoutes() {
         <Route path="/classificacao" element={<Classificao />} />
         <Route path="/ranking" element={<Ranking />} />
         <Route path="/midias" element={<Midias />} />
+        <Route path="/championship" element={<Championship />} />
 
       </Route>
     </Routes>

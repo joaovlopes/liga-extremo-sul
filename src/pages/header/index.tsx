@@ -10,7 +10,9 @@ export function Header() {
     return (
         <header className='header-container'>
             <MenuSlider />
-            <img src={Logo} alt="Logo do campeonato" />
+            <NavLink to="/" className='login-button'>
+                <img src={Logo} alt="Logo do campeonato" />
+            </NavLink>
             <MenuDesktop />
             <NavLink to="/" className='login-button'>
                 <CircleUser />

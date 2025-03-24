@@ -1,4 +1,53 @@
 .aside-container {
-    margin-top: 2rem;
-    position: fixed;
+    background-color: #fff;
+    padding: 2rem;
+    padding-top: 120px;
+    max-width: 440px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    color: black;
+
+    justify-self: anchor-center;
+    
+    .section-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        h2 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        div {
+            display: flex;
+            gap: 10px;
+        }
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        bottom: 0;
+
+        h2 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .aside-container {
+        position: fixed;
+        justify-self: auto;
+        border-right: solid rgb(223, 223, 223) 0.1px;
+        height: 100%;
+        padding-top: 120px;
+    }
 }

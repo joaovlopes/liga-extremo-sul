@@ -2,9 +2,12 @@
 
 .header-container {
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
     background-color: colors.$primary-color;
     align-items: center;
+    z-index: 1000;
 
     padding: 0.5rem 1rem;
 

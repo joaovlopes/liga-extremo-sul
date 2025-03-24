@@ -1,0 +1,40 @@
+.mainHomePage {
+    padding: 50px 2rem;
+    justify-self: center;
+
+    h1 {
+        font-weight: bold;
+        font-size: x-large;
+        margin-bottom: 1rem;
+    }
+
+    .container-categories {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mainHomePage {
+        margin-top: 0px;
+        margin-left: 440px;
+        padding-top: 120px;
+    }
+}
+
+@media (min-width: 1148px) {
+    .mainHomePage {
+        .container-categories {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .mainHomePage {
+        .container-categories {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
