@@ -1,0 +1,28 @@
+.menuDesktop {
+    display: none;
+    gap: 25px;
+    font-weight: bold;
+
+    a {
+        cursor: pointer;
+    }
+
+    .section-menu {
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 14px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #0f946e;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .header-container {
+        .menuDesktop {
+            display: flex;
+        }
+    }
+}

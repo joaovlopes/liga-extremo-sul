@@ -1,0 +1,26 @@
+@use '@/styles/colors/colors.scss' as colors;
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: colors.$primary-color;
+    align-items: center;
+
+    padding: 0.5rem 1rem;
+
+    img {
+        width: 5rem;
+    }
+
+    .login-button {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 8px 12px;
+        border-radius: 5px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #0f946e;
+        }
+    }
+}
